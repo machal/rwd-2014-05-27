@@ -45,6 +45,10 @@ a img {
 a {
   color: red;
 }
+.content img {
+  max-width: 100%;
+  height: auto;
+}
 /* Pomocne tridy: clearovani atd. */
 /*
 
@@ -88,11 +92,8 @@ a {
 }
 .gallery-item {
   float: left;
-  width: 170px;
-  margin: 0 15px 15px 0;
-}
-.gallery-item img {
-  width: 170px;
+  width: 31.48148148148148%;
+  margin: 0 2.7777777777777777% 15px 0;
 }
 .gallery-item a {
   margin-bottom: 4px;
@@ -160,7 +161,7 @@ b .nav-item,
 }
 /* Layout pro siroke dipleje */
 .nav li {
-  width: 245px;
+  width: 25%;
   float: left;
   margin: 0;
   padding: 0;
