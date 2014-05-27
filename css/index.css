@@ -228,9 +228,9 @@ b .nav-item,
 .photo img {
   display: block;
 }
-/* 
+/*
 
---- Tabulka --- 
+--- Tabulka ---
 
 */
 table {
@@ -254,6 +254,13 @@ th img {
 }
 .table-order td.points {
   text-align: right;
+}
+@media screen and (min-width: 820px) and (max-width: 900px) {
+  .matches-win,
+  .matches-draw,
+  .matches-loose {
+    display: none;
+  }
 }
 /* Layout webu ve sloupeccich */
 @media screen and (min-width: 820px) {
